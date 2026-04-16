@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>TestHarrier</title>
+  <meta name="description" content="Modern placement testing platform — create assessments, invite candidates, and review results with TestHarrier." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TestHarrier" />
+  <meta property="og:title" content="TestHarrier" />
+  <meta property="og:description" content="Modern placement testing platform — create assessments, invite candidates, and review results with TestHarrier." />
+  <meta property="og:url" content="https://testharrier.com/" />
+  <meta property="og:image" content="https://testharrier.com/favicon.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <base href="/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#2563EB",
+            "primary-dark": "#1d4ed8",
+            "primary-light": "#3b82f6",
+            "background-light": "#FFFFFF",
+            "surface-light": "#F9FAFB",
+            "text-light-primary": "#000000",
+            "text-light-secondary": "#666666",
+            "border-light": "#E5E7EB",
+            "background-dark": "#18181B",
+            "surface-dark": "#27272A",
+            "surface-dark-lighter": "#2D2D2D",
+            "text-dark-primary": "#000000",
+            "text-dark-secondary": "#666666",
+            "border-dark": "#333333",
+            "primary-bg": "#121212",
+            "card-bg": "#1E1E1E",
+            "light-grey": "#F8FAFC",
+            "medium-grey": "#9CA3AF",
+            "card-light": "#F9FAFB",
+            "auth-text-light-primary": "#111827",
+            "auth-text-light-secondary": "#4B5563",
+            "auth-text-dark-primary": "#F8FAFC",
+            "auth-text-dark-secondary": "#9CA3AF",
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Outfit', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Outfit:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #FFFFFF;
+      color: #111827;
+    }
+    .dark body {
+      background-color: #18181B;
+      color: #F8FAFC;
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-light-primary dark:text-text-dark-primary font-sans antialiased transition-colors duration-300">
+  <app-root></app-root>
+</body>
+</html>

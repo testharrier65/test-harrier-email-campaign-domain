@@ -1,0 +1,67 @@
+# test-harrier-email-campaign-domain
+
+**GitHub:** [testharrier65/test-harrier-email-campaign-domain](https://github.com/testharrier65/test-harrier-email-campaign-domain) (Public)
+
+**Clone / remote URL (anonymous or any account):**
+
+```text
+https://github.com/testharrier65/test-harrier-email-campaign-domain.git
+```
+
+**Pushes from collaborator `csxaptipro`:** this repo’s `origin` is set so Git uses the **`csxaptipro`** GitHub user when authenticating (HTTPS). You must push from a machine where that account can sign in (Git Credential Manager, **Personal Access Token** as password, or **SSH** key on `csxaptipro`).
+
+```text
+https://csxaptipro@github.com/testharrier65/test-harrier-email-campaign-domain.git
+```
+
+```bash
+git remote add origin https://csxaptipro@github.com/testharrier65/test-harrier-email-campaign-domain.git
+# or: git remote set-url origin https://csxaptipro@github.com/testharrier65/test-harrier-email-campaign-domain.git
+git push -u origin main
+```
+
+If Git asks for a password, use a **GitHub fine-grained or classic PAT** for `csxaptipro`, not the account password.
+
+---
+
+## Quick setup
+
+If you already know Git and have a GitHub account, add this repo as `origin` and push:
+
+```bash
+git remote add origin https://github.com/testharrier65/test-harrier-email-campaign-domain.git
+git branch -M main
+git push -u origin main
+```
+
+---
+
+## Create a new repository on the command line
+
+```bash
+echo "# test-harrier-email-campaign-domain" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/testharrier65/test-harrier-email-campaign-domain.git
+git push -u origin main
+```
+
+---
+
+## Push an existing repository from the command line
+
+```bash
+git remote add origin https://github.com/testharrier65/test-harrier-email-campaign-domain.git
+git branch -M main
+git push -u origin main
+```
+
+---
+
+## GitHub UI notes (from repo creation page)
+
+- **GitHub Copilot:** Optional — AI pair programmer for autocomplete in the editor.
+- **Collaborators:** Add people by GitHub username or email under repository Settings.
+- **Recommendation:** Include a README, LICENSE, and `.gitignore` in the repository.
